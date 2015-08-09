@@ -30,3 +30,4 @@ How to Run
 11. to stop the node server: > Ctrl+c
 12. Open the project in browser: > http://localhost:3000
 
+<img src="public/img/screenshot.jpg">
