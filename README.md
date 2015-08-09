@@ -2,20 +2,20 @@
 
 How to Run
 ------------------------------------------
-1 Install node from: http://nodejs.org/
-2. Install express library. This is required for serving the static files: > npm install express
-3. download mongodb from mongodb.org & install in your home directory (rename mongo.version to mongo)
-4. create directory data/db, the mongodb will be storing the data in this directory
-	cd /
-	sudo mkdir -p /data/db
-5. Start the MongoDB server:
-	cd mongo/bin
-	sudo ./mongod
-6. Open MongoDB query window:
-	cd mongo/bin
-	sudo ./mongo
-7. When mongodb query window started create contactlist table:
-	use contactlist
+1 Install node from: http://nodejs.org/<br />
+2. Install express library. This is required for serving the static files: > npm install express<br />
+3. download mongodb from mongodb.org & install in your home directory (rename mongo.version to mongo)<br />
+4. create directory data/db, the mongodb will be storing the data in this directory<br />
+	cd /<br />
+	sudo mkdir -p /data/db<br />
+5. Start the MongoDB server:<br />
+	cd mongo/bin<br />
+	sudo ./mongod<br />
+6. Open MongoDB query window:<br />
+	cd mongo/bin<br />
+	sudo ./mongo<br />
+7. When mongodb query window started create contactlist table:<br />
+	use contactlist<br />
 
 	MongoDB useful commands:
 		show available tables: 			> show dbs
